@@ -6,7 +6,7 @@ function Song(props) {
      let { id } = useParams(Number());
 
      if (isNaN(id)) {
-          window.location.href = '/'
+          window.location.href = '/onzer'
      } else {
           
           return (

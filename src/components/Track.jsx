@@ -32,7 +32,7 @@ function Track(props) {
                               : <><i className="fas fa-heart"></i> Ajouter aux favoris</>
                          }
                     </a>
-                    <Link to={`/song/${music.id}`} className="float-right mt-2">
+                    <Link to={`/onzer/song/${music.id}`} className="float-right mt-2">
                          <i className="fas fa-info-circle fa-2x"></i>
                     </Link>
                </div>
